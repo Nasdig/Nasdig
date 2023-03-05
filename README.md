@@ -1,4 +1,5 @@
 ### Hi there 👋
+Actualmente aprendiendo  todo  relacionado a la programacion e introduciendome en este campo poco a poco.🌱
 
 <!--
 **Nasdig/Nasdig** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
