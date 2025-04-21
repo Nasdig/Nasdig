@@ -1,0 +1,31 @@
+.body {
+    background-color: antiquewhite;
+}
+.barra {
+ display: flex;
+ background-color: black;
+ flex-direction: column;
+ align-items: center;
+}
+ul {
+    border: solid 1px white;
+}
+ul a{
+    color: white;
+    text-decoration: none;
+}
+.imagenPerfil {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px; 
+}
+.ver{
+    border: solid 1px black;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+}

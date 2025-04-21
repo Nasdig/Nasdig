@@ -5,12 +5,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Portfolio de Nasdig Jordan Ortiz Gutierrez, desarrollador web junior.">
         <title>portafolio</title>
-        <link rel="stylesheet" href="style.css">
-        <script src="script.js" defer></script>
+        <link rel="stylesheet" href="/styles/style.css">
+        <link rel="stylesheet" href="/styles/normalize.css">
+        <script src="/script/script.js" defer></script>
     </head>
     <body class="body">
         <header>
-            <nav>
+            <nav class="ver barra">
                 <ul>
                     <li><a href="#sobreMi">Sobre Mi</a></li>
                     <li><a href="#proyectos">proyectos</a></li>
@@ -19,9 +20,9 @@
             </nav>
         </header>
         <main>
-            <img src="img/perfil.jpg" alt="perfil" class="imagenPerfil">
-            <h1>Nasdig Jordan Ortiz Gutierrez</h1><br>
-            <h2 id="sobreMi">Sobre Mi</h2><br>
+            <img src="img/perfil.jpg" alt="foto de perfil de Nasdig Jordan Ortiz Gutierrez" class="imagenPerfil">
+            <h1>Nasdig Jordan Ortiz Gutierrez</h1>
+            <h2 id="sobreMi">Sobre Mi</h2>
             <p>Desarrollador web junior 🇵🇪</p>
         </main>
         <section id="proyectos">
@@ -37,8 +38,16 @@
             </div>
         </section>    
         <footer>
-            <form>
-                <h2 id="contactame">Contactame</h2>
+            <h2 id="contactame">Contactame</h2>
+            <form method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" placeholder="Nombre/Empresa" id="nombre" required name="nombre">
+
+                <label for="correo">Correo:</label>
+                <input type="text" placeholder="Correo" id="correo" required name="correo">
+
+                <label for="mensaje">Algo que decir?</label>
+                <textarea name="mensaje" id="mensaje" rows="4" cols="50"></textarea>
             </form>
         </footer>
     </body>
